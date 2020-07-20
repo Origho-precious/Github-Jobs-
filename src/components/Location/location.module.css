@@ -1,0 +1,39 @@
+
+.Location{
+    max-width: 100%;
+    margin: 2rem 0;
+}
+
+.Location h5{
+    color: #777;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.Location input[type="text"]{
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 0.9rem;
+    outline: none;
+    height: 45px;
+    width: 100%;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+}
+
+.Location .checkboxes div{
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Location .checkboxes input{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-right: 0.9rem;
+}
+
+.Location .checkboxes label{
+    font-size: 1.1rem;
+}

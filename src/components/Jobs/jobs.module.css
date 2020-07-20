@@ -1,0 +1,101 @@
+
+.Jobs{
+    max-width: 100%;
+    /* position: fixed;
+    right: 6rem;
+    overflow-y: scroll;
+    height: 100%; */
+}
+
+
+.Jobs .Link{
+    text-decoration: none;
+}
+
+.Jobs .job:hover{
+    box-shadow: 1px 2px 6px 8px #ccc;
+}
+
+.Jobs .job{
+    width: 100%;
+    margin: 0 auto 2rem;
+    background: #FFF;
+    border-radius: 0.2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 1rem;
+    color: #000;
+    transition: all 1s;
+}
+
+.Jobs .job img{
+    width: 25%;
+}
+
+.Jobs .job > div{
+    display: flex;
+    align-self: flex-end;
+}
+
+.Jobs .job h3{
+    font-weight: 400;
+    margin: 0.5rem 0 0;
+}
+
+.Jobs .job .details {
+    margin-left: 0.5rem;
+}
+
+.Jobs .job .details span{
+    display: inline-block;
+    border: 1px solid #333;
+    border-radius: 0.2rem;
+    padding: 0.2rem 0.3rem;
+    margin-top: 0.9rem;
+    font-size: 0.8rem;
+}
+
+.Jobs .job div > p{
+    font-size: 0.8rem;
+}
+
+.Jobs .job .footer{
+    text-align: center;
+}
+
+.Jobs .job .location{
+    margin-right: 1rem;
+}
+
+@media(max-width: 900px){   
+    .Jobs .job{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem 0;
+    }
+
+    .Jobs .job img{
+        width: 25%;
+    }
+
+    .Jobs .job .footer{
+        float: right;
+    }
+}
+
+@media(max-width: 500px){   
+    .Jobs .job{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem 0;
+    }
+
+    .Jobs .job img{
+        width: 35%;
+        max-height: 100px;
+    }
+
+    .Jobs .job .footer{
+        float: right;
+    }
+}
