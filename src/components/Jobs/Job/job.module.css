@@ -89,6 +89,11 @@
     .Job .description span{
         margin-left: 0;
     }
+
+    .Job .details img{
+        width: 30%;
+        max-height: 150px;
+    }
         
     .Job .details{
         margin: 2rem 0;
