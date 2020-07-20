@@ -28,7 +28,6 @@ class Store extends Component{
     }
 
     render(){
-        console.log(this.state);
         return(
             <Context.Provider value={{ 
                 state: this.state,

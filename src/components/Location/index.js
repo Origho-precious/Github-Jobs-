@@ -20,7 +20,7 @@ class Location extends Component{
                             <form>
                                 <div>
                                     <input 
-                                        type="radio" 
+                                        type="checkbox" 
                                         id="1st"
                                         onClick={e => e.target.checked ? context.changeLocation(e.target.value) : context.changeLocation('')}
                                         value="London"
@@ -29,7 +29,7 @@ class Location extends Component{
                                 </div>
                                 <div>
                                     <input 
-                                        type="radio" 
+                                        type="checkbox" 
                                         id="2nd"
                                         onClick={e => e.target.checked ? context.changeLocation(e.target.value) : context.changeLocation('')}
                                         value="Amsterdam"
@@ -38,7 +38,7 @@ class Location extends Component{
                                 </div>
                                 <div>
                                     <input 
-                                        type="radio" 
+                                        type="checkbox" 
                                         id="3rd"
                                         onClick={e => e.target.checked ? context.changeLocation(e.target.value) : context.changeLocation('')}
                                         value="New York"
@@ -47,7 +47,7 @@ class Location extends Component{
                                 </div>
                                 <div>
                                     <input
-                                        type="radio" 
+                                        type="checkbox" 
                                         id="4th"
                                         onClick={e => e.target.checked ? context.changeLocation(e.target.value) : context.changeLocation('')}
                                         value="Berlin"
