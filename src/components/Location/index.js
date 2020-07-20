@@ -9,7 +9,6 @@ class Location extends Component{
                 {(context) => (
                     <div className={styles.Location}>
                         <h5>Location</h5>
-                        <small>Select one location(type if not available)</small>
                         <input 
                             type="text"
                             placeholder="City, state, zip code or country"
